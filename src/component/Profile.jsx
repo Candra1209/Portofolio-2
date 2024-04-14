@@ -9,7 +9,7 @@ function Profile() {
             </div> 
             <div className='md:w-3/5 h-auto flex items-center'>
                 <div className='bg-emerald-600 rounded-large p-4 '>
-                    <span className='text-justify font-poppins font-medium text-white'>
+                    <span className='text-xs md:text-sm lg:text-base text-justify font-poppins font-medium text-white'>
                         My name Candra Irawan, im from South Borneo Indonesia. this is the second time im using react there lot things to learn
                         like react-DOM, Hook, costum Hook, Server side rendering (SSR), router and many more, but im feel proud that  i can make this site
                         without looking to turtorial and using basic stuff like Component and props. also i really like game dev so some time i try game programming, still dont know what kind a engine i choose

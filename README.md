@@ -19,3 +19,8 @@ merupakan breach dimana website yang telah dipush dan di deploy akan disimpan se
 - react-router-DOM
 - axios
 - tailwinds
+
+### API
+- Github Repo API
+
+go here to see [Protofolio-2 Page](https://candra1209.github.io/Portofolio-2)

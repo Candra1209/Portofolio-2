@@ -15,6 +15,7 @@ function RepoCards() {
                 setDataFetch(res.data)
             })
             .catch((err) => {
+                alert(err.messege)
             })
         }
         

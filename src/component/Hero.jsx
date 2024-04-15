@@ -5,9 +5,9 @@ function Hero() {
     return (
         <>
         <div>
-            <div className='lg:grid lg:grid-cols-3 w-dwh h-dvh'>
+            <div className='lg:grid lg:grid-cols-3 w-svw h-svh'>
             <div className='lg:col-span-2'>
-                <div className='w-auto h-dvh flex justify-center items-center'>
+                <div className='w-auto h-svh flex justify-center items-center'>
                     <div className='w-full lg:w-9/12 text-center lg:text-left'>
                         <div>
                             <span className='text-lg md:text-2xl lg:text-4xl italic text-white font-satisfy'>Olla!! </span> 

@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
+import { Link } from 'react-router-dom'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -27,41 +28,41 @@ export default function DropdownLink() {
             <div className="py-1">
                 <Menu.Item>
                 {({ active }) => (
-                    <a
-                    href="#"
+                    <Link
+                    to="/Portofolio-2/project"
                     className={classNames(
                         active ? 'bg-gray-100 text-white' : 'text-gray-700',
                         'block px-4 py-2 text-sm'
                     )}
                     >
                     Project
-                    </a>
+                    </Link>
                 )}
                 </Menu.Item>
                 <Menu.Item>
                 {({ active }) => (
-                    <a
-                    href="#"
+                    <Link
+                    to="/Portofolio-2/contacts"
                     className={classNames(
                         active ? 'bg-gray-100 text-white' : 'text-gray-700',
                         'block px-4 py-2 text-sm'
                     )}
                     >
                     Contact
-                    </a>
+                    </Link>
                 )}
                 </Menu.Item>
                 <Menu.Item>
                 {({ active }) => (
-                    <a
-                    href="#"
+                    <Link
+                    to="/Portofolio-2/aboutme"
                     className={classNames(
                         active ? 'bg-gray-100 text-white' : 'text-gray-700',
                         'block px-4 py-2 text-sm'
                     )}
                     >
                     About me
-                    </a>
+                    </Link>
                 )}
                 </Menu.Item>
             </div>

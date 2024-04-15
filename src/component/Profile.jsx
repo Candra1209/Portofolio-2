@@ -3,7 +3,7 @@ import me from '../assets/candra.jpg'
 
 function Profile() {
     return (
-        <div className='md:flex justify-center w-full gap-7 lg:gap-14 py-32 px-10 sm:px-20 bg-gradient-to-tr from-emerald-950 to-emerald-800'>
+        <div className='md:flex justify-center h-screen w-full gap-7 lg:gap-14 py-32 px-10 sm:px-20 bg-gradient-to-tr from-emerald-950 to-emerald-800'>
             <div className='w-full md:w-72 flex p-5 md:p-0 items-center justify-center'>
                     <img src={me} alt="" className='w-72 md:w-full ring-4 ring-emerald-600 ring-offset-4 ring-offset-emerald-950 rounded-full'></img>
             </div> 

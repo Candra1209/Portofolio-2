@@ -6,7 +6,7 @@ function Biodata() {
     return (
         /*style={{ backgroundImage:`url(${bgCandra})` }} className='p-20 my-5 bg-contain bg-no-repeat bg-left-top' */
         
-        <div className='h-dvh'>
+        <div className='h-screen'>
             <div className='relative h-full'>
                 <img 
                 className='absolute top-0 right-0 h-full object-cover'

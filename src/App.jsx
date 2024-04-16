@@ -11,18 +11,17 @@ function App() {
 
   return (
     <>
-      <div className='bg-gradient-to-b from-emerald-950 from-10% to-emerald-700'>
-          <Hero/>
-      </div>
 
       <div>
         <Outlet/>
       </div>
 
-      <div className='fixed w-full top-0' >
+      <div className='fixed w-svw top-0' >
             <Navbar/>
       </div>
-      <Footer/>
+      <div className='absolute w-full'>
+        <Footer/>
+      </div>
     </>
   )
 }

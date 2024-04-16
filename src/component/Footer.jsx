@@ -5,7 +5,7 @@ import tailwind from '../assets/tailwindcss.svg'
 
 function Footer() {
     return (
-        <div className='md:flex w-full bg-green-950 items-center justify-center gap-3h py-4'>
+        <div className='md:flex w-full bg-emerald-950 items-center justify-center gap-3h py-4'>
             <span className='flex  justify-center text-white text-sm font-extralight px-1'>
                 Create by candraseka1209@gmail.com
             </span>

@@ -12,7 +12,7 @@ function RepoHeader() {
                 console.log(res.data)
             })
             .catch((err) => {
-                alert(err)
+                alert(err.messege)
             })
         }
 

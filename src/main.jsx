@@ -9,6 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './pages/ErrorPage.jsx';
+import Hero from './component/Hero.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
       element: <App/>,
       errorElement: <ErrorPage/>,
       children:[
+        {
+          path: "/Portofolio-2/",
+          element: <Hero/>,
+          errorElement: <ErrorPage/>
+        },
         {
           path: "/Portofolio-2/aboutme",
           element: <AboutMe/>,

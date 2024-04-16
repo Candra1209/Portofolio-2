@@ -6,13 +6,13 @@ function Biodata() {
     return (
         /*style={{ backgroundImage:`url(${bgCandra})` }} className='p-20 my-5 bg-contain bg-no-repeat bg-left-top' */
         
-        <div className='h-screen'>
+        <div className='min-h-screen w-full'>
             <div className='relative h-full'>
                 <img 
                 className='absolute top-0 right-0 h-full object-cover'
                 src={bgCandra} alt="background" />
 
-                <div className='absolute bg-gradient-to-r from-emerald-950 from-20% md:from-70% to-transparent w-full h-full'>
+                <div className='absolute bg-gradient-to-r from-emerald-950 from-20% md:from-60% to-transparent w-full h-full'>
                     
                 </div>
                 <div className='flex items-center h-full'>
@@ -70,6 +70,14 @@ function Biodata() {
                                 </a>
                                 
                             </div>
+                        </div>
+                        <div className='relative bottom-0'>
+                            <span className='
+                            font-poppins font-semibold
+                            text-xl text-white underline underline-offset-4
+                            '>
+                                &lt;&lt; Slide Me &gt;&gt;
+                            </span>
                         </div>
                     </div>
                 </div>

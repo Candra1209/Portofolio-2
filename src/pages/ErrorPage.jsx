@@ -10,7 +10,7 @@ function ErrorPage() {
             <div className=' w-lvw h-lvh flex justify-center items-center bg-emerald-100'>
                 <img src={leaf_1} alt="Leaf Icon" className='invisible md:visible absolute w-72 top-10 -left-28 rotate-45' />
                 <img src={leaf_2} alt="Leaf Icon" className='invisible md:visible absolute w-72 bottom-0 right-0' />
-                <img src={leaf_3} alt="Leaf Icon" className='absolute w-96' />
+                <img src={leaf_3} alt="Leaf Icon" className='absolute w-72 md:w-96' />
 
                 <div className='
                 relative w-fit h-fit

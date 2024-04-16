@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
     <div>
-        <div className='w-full flex justify-center '>
+        <div className='w-screen flex justify-center '>
             <div className='w-11/12 rounded-full mt-3 backdrop-blur-md'>
             <nav className='w-full h-14 md:h-16 lg:h-20 flex justify-between px-5 md:px-7 lg:px-10 py-2'>
                 <div className='flex items-center lg:flex-1'>

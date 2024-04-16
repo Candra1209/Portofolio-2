@@ -19,6 +19,7 @@ merupakan breach dimana website yang telah dipush dan di deploy akan disimpan se
 - react-router-DOM
 - axios
 - tailwinds
+- DaisyUI
 
 ### API
 - Github Repo API

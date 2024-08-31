@@ -35,7 +35,7 @@ function Biodata() {
                                 
                                 <a href=" https://wa.me/6285753014487" target="_blank" rel="noopener noreferrer">
                                     <div className='font-poppins text-sm flex text-white font-light gap-2 bg-emerald-700 hover:bg-white hover:text-emerald-700 rounded-full py-1 px-5'>
-                                        <span>+6295753014487</span>
+                                        <span>+6285705092824</span>
                                     </div>
                                 </a>
                                 <a href="https://web.facebook.com/people/Candra-Irawan/pfbid0L4SK4vHXEuDaTFLfSnJixj52zvZaHSy8Z3vVor8e2smtL4jd98zxgCerpdyK8VHol/" target="_blank" rel="noopener noreferrer">
